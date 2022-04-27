@@ -1,0 +1,14 @@
+1)
+[7,5,1,8,3,6,0,9,4,2]
+Root=4
+            4
+       2         9      (from left side of root 2 can be found, from right side 9 can be found)
+       
+    0     3     6       (0 is the smallest number of the string. So, it must be on the left of 2. 3, must be on the right side of 2 as it is bigger than 2.)
+                        (6 is bigger than 4 so it must be on the right side of it but 6 is smaller than 9 so it must be on the left side of 9.)
+      1       5   8     (1 is smaller than 4 and 2 but bigger than 0 so, it must be placed on the right side of 0. 5 is bigger than 4 but smaller than 9 and 6
+                          so, it should be put on the left side of the 6. 8 is bigger than 4 and 6 but smaller than 9 so it msut be placed on the right side of 6.
+                          Finally, 7 should be on the left side of the 8.)
+                 7
+                 
+                 Done!
